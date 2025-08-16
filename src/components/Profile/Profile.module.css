@@ -1,0 +1,44 @@
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+.profile {
+  width: 650px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 30px auto;
+  text-align: center;
+  color: gray;
+  overflow: hidden;
+}
+.profileImg{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background-color: black;
+  border-radius: 50%;
+}
+.socialList{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  color: black;
+
+}
+.socialList li{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  width: calc(100% / 3);
+  padding: 20px 0;
+}
+.listName{
+  font-size: 20px;
+  font-weight: 900;
+}
+
+span{
+  font-size: 16px;
+  font-weight: 500;
+}
