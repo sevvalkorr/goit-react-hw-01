@@ -1,7 +1,7 @@
 import styles from './Profile.module.css';
 function Profile({name, tag, location, avatar, stats}) {
   return (
-    <div lassName={styles.profile}>
+    <div className={styles.profile}>
         <img src={avatar} alt="User avatar" className={styles.profileImg} />
         <div className={styles.profileInformation}>
             <h1>{name}</h1>
