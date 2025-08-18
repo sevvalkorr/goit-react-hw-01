@@ -1,6 +1,6 @@
 import styles from './Friend.module.css';
 
-function FriendsListItem({avatar, name, isOnline }) {
+function FriendListItem({avatar, name, isOnline }) {
   return (
     <div className={styles.friendListItem}> 
         <img src={avatar} alt="Avatar" width="48" />
@@ -12,4 +12,4 @@ function FriendsListItem({avatar, name, isOnline }) {
   )
 }
 
-export default FriendsListItem
+export default FriendListItem

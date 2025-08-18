@@ -1,6 +1,6 @@
-import styles from './Transcation.module.css'
+import styles from './Transaction.module.css'
 
-function Transcation({ items }) {
+function Transaction({ items }) {
   return (
     <table className={styles.table}>
       <thead>
@@ -23,4 +23,4 @@ function Transcation({ items }) {
   )
 }
 
-export default Transcation
+export default Transaction

@@ -1,11 +1,11 @@
 import userData from './userData.json'
 import friendData from './friendData.json'
-import transcationData from './transactionData.json'
+import transactionData from './transactionData.json'
 
 import './App.css'
 import Profile from './components/Profile/Profile'
 import FriendsList from './components/FriendList/FriendList'
-import Transcation from './components/TransactionHistory/Transcation'
+import Transaction from './components/TransactionHistory/Transaction'
 
 
 
@@ -23,8 +23,8 @@ function App() {
     <FriendsList
       friends={friendData}
     />
-    <Transcation
-      items={transcationData}
+    <Transaction
+      items={transactionData}
     />
     </>
   )
